@@ -1,0 +1,1224 @@
+<html><head></head><body><div class="apidocDiv">
+<style>
+/*csslint
+*/
+.apidocDiv {
+    background: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.apidocDiv a[href] {
+    color: #33f;
+    font-weight: bold;
+    text-decoration: none;
+}
+.apidocDiv a[href]:hover {
+    text-decoration: underline;
+}
+.apidocCodeCommentSpan {
+    background: #bbf;
+    color: #000;
+    display: block;
+}
+.apidocCodeKeywordSpan {
+    color: #d00;
+    font-weight: bold;
+}
+.apidocCodePre {
+    background: #eef;
+    border: 1px solid;
+    color: #777;
+    padding: 5px;
+    white-space: pre-wrap;
+}
+.apidocFooterDiv {
+    margin-top: 20px;
+    text-align: center;
+}
+.apidocModuleLi {
+    margin-top: 10px;
+}
+.apidocSectionDiv {
+    border-top: 1px solid;
+    margin-top: 20px;
+}
+.apidocSignatureSpan {
+    color: #777;
+    font-weight: bold;
+}
+</style>
+<h1>api documentation for
+    <a href="http://jossmac.github.io/react-images">react-images (v0.5.2)</a>
+</h1>
+<h4>A simple, responsive lightbox component for displaying an array of images with React.js</h4>
+<div class="apidocSectionDiv"><a href="#apidoc.tableOfContents" id="apidoc.tableOfContents"><h1>table of contents</h1></a><ol>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.react-images">module react-images</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-images.react-images">
+            function <span class="apidocSignatureSpan"></span>react-images
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-images.childContextTypes.theme">
+            function <span class="apidocSignatureSpan">react-images.</span>childContextTypes.theme
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-images.propTypes.backdropClosesModal">
+            function <span class="apidocSignatureSpan">react-images.</span>propTypes.backdropClosesModal
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-images.propTypes.currentImage">
+            function <span class="apidocSignatureSpan">react-images.</span>propTypes.currentImage
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-images.propTypes.customControls">
+            function <span class="apidocSignatureSpan">react-images.</span>propTypes.customControls
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-images.propTypes.imageCountSeparator">
+            function <span class="apidocSignatureSpan">react-images.</span>propTypes.imageCountSeparator
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-images.propTypes.images">
+            function <span class="apidocSignatureSpan">react-images.</span>propTypes.images
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-images.propTypes.onClickImage">
+            function <span class="apidocSignatureSpan">react-images.</span>propTypes.onClickImage
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-images.propTypes.onClose">
+            function <span class="apidocSignatureSpan">react-images.</span>propTypes.onClose
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-images.propTypes.theme">
+            function <span class="apidocSignatureSpan">react-images.</span>propTypes.theme
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-images.toString">
+            function <span class="apidocSignatureSpan">react-images.</span>toString
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">react-images.</span>childContextTypes</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">react-images.</span>defaultProps</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">react-images.</span>propTypes</span>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.react-images.childContextTypes">module react-images.childContextTypes</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-images.childContextTypes.theme">
+            function <span class="apidocSignatureSpan">react-images.childContextTypes.</span>theme
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.react-images.childContextTypes.theme">module react-images.childContextTypes.theme</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-images.childContextTypes.theme.theme">
+            function <span class="apidocSignatureSpan">react-images.childContextTypes.</span>theme
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.react-images.propTypes">module react-images.propTypes</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-images.propTypes.backdropClosesModal">
+            function <span class="apidocSignatureSpan">react-images.propTypes.</span>backdropClosesModal
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-images.propTypes.currentImage">
+            function <span class="apidocSignatureSpan">react-images.propTypes.</span>currentImage
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-images.propTypes.customControls">
+            function <span class="apidocSignatureSpan">react-images.propTypes.</span>customControls
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-images.propTypes.enableKeyboardInput">
+            function <span class="apidocSignatureSpan">react-images.propTypes.</span>enableKeyboardInput
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-images.propTypes.imageCountSeparator">
+            function <span class="apidocSignatureSpan">react-images.propTypes.</span>imageCountSeparator
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-images.propTypes.images">
+            function <span class="apidocSignatureSpan">react-images.propTypes.</span>images
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-images.propTypes.isOpen">
+            function <span class="apidocSignatureSpan">react-images.propTypes.</span>isOpen
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-images.propTypes.onClickImage">
+            function <span class="apidocSignatureSpan">react-images.propTypes.</span>onClickImage
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-images.propTypes.onClickNext">
+            function <span class="apidocSignatureSpan">react-images.propTypes.</span>onClickNext
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-images.propTypes.onClickPrev">
+            function <span class="apidocSignatureSpan">react-images.propTypes.</span>onClickPrev
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-images.propTypes.onClose">
+            function <span class="apidocSignatureSpan">react-images.propTypes.</span>onClose
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-images.propTypes.preloadNextImage">
+            function <span class="apidocSignatureSpan">react-images.propTypes.</span>preloadNextImage
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-images.propTypes.showCloseButton">
+            function <span class="apidocSignatureSpan">react-images.propTypes.</span>showCloseButton
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-images.propTypes.showImageCount">
+            function <span class="apidocSignatureSpan">react-images.propTypes.</span>showImageCount
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-images.propTypes.showThumbnails">
+            function <span class="apidocSignatureSpan">react-images.propTypes.</span>showThumbnails
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-images.propTypes.theme">
+            function <span class="apidocSignatureSpan">react-images.propTypes.</span>theme
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-images.propTypes.thumbnailOffset">
+            function <span class="apidocSignatureSpan">react-images.propTypes.</span>thumbnailOffset
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-images.propTypes.width">
+            function <span class="apidocSignatureSpan">react-images.propTypes.</span>width
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.react-images.propTypes.backdropClosesModal">module react-images.propTypes.backdropClosesModal</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-images.propTypes.backdropClosesModal.backdropClosesModal">
+            function <span class="apidocSignatureSpan">react-images.propTypes.</span>backdropClosesModal
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-images.propTypes.backdropClosesModal.isRequired">
+            function <span class="apidocSignatureSpan">react-images.propTypes.backdropClosesModal.</span>isRequired
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.react-images.propTypes.currentImage">module react-images.propTypes.currentImage</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-images.propTypes.currentImage.currentImage">
+            function <span class="apidocSignatureSpan">react-images.propTypes.</span>currentImage
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-images.propTypes.currentImage.isRequired">
+            function <span class="apidocSignatureSpan">react-images.propTypes.currentImage.</span>isRequired
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.react-images.propTypes.customControls">module react-images.propTypes.customControls</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-images.propTypes.customControls.customControls">
+            function <span class="apidocSignatureSpan">react-images.propTypes.</span>customControls
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-images.propTypes.customControls.isRequired">
+            function <span class="apidocSignatureSpan">react-images.propTypes.customControls.</span>isRequired
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.react-images.propTypes.imageCountSeparator">module react-images.propTypes.imageCountSeparator</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-images.propTypes.imageCountSeparator.imageCountSeparator">
+            function <span class="apidocSignatureSpan">react-images.propTypes.</span>imageCountSeparator
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-images.propTypes.imageCountSeparator.isRequired">
+            function <span class="apidocSignatureSpan">react-images.propTypes.imageCountSeparator.</span>isRequired
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.react-images.propTypes.images">module react-images.propTypes.images</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-images.propTypes.images.images">
+            function <span class="apidocSignatureSpan">react-images.propTypes.</span>images
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.react-images.propTypes.onClickImage">module react-images.propTypes.onClickImage</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-images.propTypes.onClickImage.onClickImage">
+            function <span class="apidocSignatureSpan">react-images.propTypes.</span>onClickImage
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-images.propTypes.onClickImage.isRequired">
+            function <span class="apidocSignatureSpan">react-images.propTypes.onClickImage.</span>isRequired
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.react-images.propTypes.onClose">module react-images.propTypes.onClose</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-images.propTypes.onClose.onClose">
+            function <span class="apidocSignatureSpan">react-images.propTypes.</span>onClose
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.react-images.propTypes.theme">module react-images.propTypes.theme</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-images.propTypes.theme.theme">
+            function <span class="apidocSignatureSpan">react-images.propTypes.</span>theme
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-images.propTypes.theme.isRequired">
+            function <span class="apidocSignatureSpan">react-images.propTypes.theme.</span>isRequired
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.react-images.toString">module react-images.toString</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-images.toString.toString">
+            function <span class="apidocSignatureSpan">react-images.</span>toString
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+</ol></div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.react-images" id="apidoc.module.react-images">module react-images</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.react-images.react-images" id="apidoc.element.react-images.react-images">
+        function <span class="apidocSignatureSpan"></span>react-images
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function Lightbox() {
+		_classCallCheck(this, Lightbox);
+
+		_get(Object.getPrototypeOf(Lightbox.prototype), 'constructor', this).call(this);
+
+		_utils.bindFunctions.call(this, ['gotoNext', 'gotoPrev', 'handleKeyboardInput']);
+	}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-images.childContextTypes.theme" id="apidoc.element.react-images.childContextTypes.theme">
+        function <span class="apidocSignatureSpan">react-images.</span>childContextTypes.theme
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">childContextTypes.theme = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-images.propTypes.backdropClosesModal" id="apidoc.element.react-images.propTypes.backdropClosesModal">
+        function <span class="apidocSignatureSpan">react-images.</span>propTypes.backdropClosesModal
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">propTypes.backdropClosesModal = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-images.propTypes.currentImage" id="apidoc.element.react-images.propTypes.currentImage">
+        function <span class="apidocSignatureSpan">react-images.</span>propTypes.currentImage
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">propTypes.currentImage = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-images.propTypes.customControls" id="apidoc.element.react-images.propTypes.customControls">
+        function <span class="apidocSignatureSpan">react-images.</span>propTypes.customControls
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">propTypes.customControls = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-images.propTypes.imageCountSeparator" id="apidoc.element.react-images.propTypes.imageCountSeparator">
+        function <span class="apidocSignatureSpan">react-images.</span>propTypes.imageCountSeparator
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">propTypes.imageCountSeparator = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-images.propTypes.images" id="apidoc.element.react-images.propTypes.images">
+        function <span class="apidocSignatureSpan">react-images.</span>propTypes.images
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">propTypes.images = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-images.propTypes.onClickImage" id="apidoc.element.react-images.propTypes.onClickImage">
+        function <span class="apidocSignatureSpan">react-images.</span>propTypes.onClickImage
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">propTypes.onClickImage = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-images.propTypes.onClose" id="apidoc.element.react-images.propTypes.onClose">
+        function <span class="apidocSignatureSpan">react-images.</span>propTypes.onClose
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">propTypes.onClose = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-images.propTypes.theme" id="apidoc.element.react-images.propTypes.theme">
+        function <span class="apidocSignatureSpan">react-images.</span>propTypes.theme
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">propTypes.theme = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-images.toString" id="apidoc.element.react-images.toString">
+        function <span class="apidocSignatureSpan">react-images.</span>toString
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">toString = function () {
+    return text;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+
+
+
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.react-images.childContextTypes" id="apidoc.module.react-images.childContextTypes">module react-images.childContextTypes</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.react-images.childContextTypes.theme" id="apidoc.element.react-images.childContextTypes.theme">
+        function <span class="apidocSignatureSpan">react-images.childContextTypes.</span>theme
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">theme = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.react-images.childContextTypes.theme" id="apidoc.module.react-images.childContextTypes.theme">module react-images.childContextTypes.theme</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.react-images.childContextTypes.theme.theme" id="apidoc.element.react-images.childContextTypes.theme.theme">
+        function <span class="apidocSignatureSpan">react-images.childContextTypes.</span>theme
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">theme = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.react-images.propTypes" id="apidoc.module.react-images.propTypes">module react-images.propTypes</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.react-images.propTypes.backdropClosesModal" id="apidoc.element.react-images.propTypes.backdropClosesModal">
+        function <span class="apidocSignatureSpan">react-images.propTypes.</span>backdropClosesModal
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">backdropClosesModal = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-images.propTypes.currentImage" id="apidoc.element.react-images.propTypes.currentImage">
+        function <span class="apidocSignatureSpan">react-images.propTypes.</span>currentImage
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">currentImage = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-images.propTypes.customControls" id="apidoc.element.react-images.propTypes.customControls">
+        function <span class="apidocSignatureSpan">react-images.propTypes.</span>customControls
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">customControls = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-images.propTypes.enableKeyboardInput" id="apidoc.element.react-images.propTypes.enableKeyboardInput">
+        function <span class="apidocSignatureSpan">react-images.propTypes.</span>enableKeyboardInput
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">enableKeyboardInput = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-images.propTypes.imageCountSeparator" id="apidoc.element.react-images.propTypes.imageCountSeparator">
+        function <span class="apidocSignatureSpan">react-images.propTypes.</span>imageCountSeparator
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">imageCountSeparator = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-images.propTypes.images" id="apidoc.element.react-images.propTypes.images">
+        function <span class="apidocSignatureSpan">react-images.propTypes.</span>images
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">images = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-images.propTypes.isOpen" id="apidoc.element.react-images.propTypes.isOpen">
+        function <span class="apidocSignatureSpan">react-images.propTypes.</span>isOpen
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">isOpen = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-images.propTypes.onClickImage" id="apidoc.element.react-images.propTypes.onClickImage">
+        function <span class="apidocSignatureSpan">react-images.propTypes.</span>onClickImage
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">onClickImage = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-images.propTypes.onClickNext" id="apidoc.element.react-images.propTypes.onClickNext">
+        function <span class="apidocSignatureSpan">react-images.propTypes.</span>onClickNext
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">onClickNext = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-images.propTypes.onClickPrev" id="apidoc.element.react-images.propTypes.onClickPrev">
+        function <span class="apidocSignatureSpan">react-images.propTypes.</span>onClickPrev
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">onClickPrev = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-images.propTypes.onClose" id="apidoc.element.react-images.propTypes.onClose">
+        function <span class="apidocSignatureSpan">react-images.propTypes.</span>onClose
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">onClose = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-images.propTypes.preloadNextImage" id="apidoc.element.react-images.propTypes.preloadNextImage">
+        function <span class="apidocSignatureSpan">react-images.propTypes.</span>preloadNextImage
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">preloadNextImage = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-images.propTypes.showCloseButton" id="apidoc.element.react-images.propTypes.showCloseButton">
+        function <span class="apidocSignatureSpan">react-images.propTypes.</span>showCloseButton
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">showCloseButton = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-images.propTypes.showImageCount" id="apidoc.element.react-images.propTypes.showImageCount">
+        function <span class="apidocSignatureSpan">react-images.propTypes.</span>showImageCount
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">showImageCount = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-images.propTypes.showThumbnails" id="apidoc.element.react-images.propTypes.showThumbnails">
+        function <span class="apidocSignatureSpan">react-images.propTypes.</span>showThumbnails
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">showThumbnails = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-images.propTypes.theme" id="apidoc.element.react-images.propTypes.theme">
+        function <span class="apidocSignatureSpan">react-images.propTypes.</span>theme
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">theme = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-images.propTypes.thumbnailOffset" id="apidoc.element.react-images.propTypes.thumbnailOffset">
+        function <span class="apidocSignatureSpan">react-images.propTypes.</span>thumbnailOffset
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">thumbnailOffset = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-images.propTypes.width" id="apidoc.element.react-images.propTypes.width">
+        function <span class="apidocSignatureSpan">react-images.propTypes.</span>width
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">width = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.react-images.propTypes.backdropClosesModal" id="apidoc.module.react-images.propTypes.backdropClosesModal">module react-images.propTypes.backdropClosesModal</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.react-images.propTypes.backdropClosesModal.backdropClosesModal" id="apidoc.element.react-images.propTypes.backdropClosesModal.backdropClosesModal">
+        function <span class="apidocSignatureSpan">react-images.propTypes.</span>backdropClosesModal
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">backdropClosesModal = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-images.propTypes.backdropClosesModal.isRequired" id="apidoc.element.react-images.propTypes.backdropClosesModal.isRequired">
+        function <span class="apidocSignatureSpan">react-images.propTypes.backdropClosesModal.</span>isRequired
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">isRequired = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.react-images.propTypes.currentImage" id="apidoc.module.react-images.propTypes.currentImage">module react-images.propTypes.currentImage</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.react-images.propTypes.currentImage.currentImage" id="apidoc.element.react-images.propTypes.currentImage.currentImage">
+        function <span class="apidocSignatureSpan">react-images.propTypes.</span>currentImage
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">currentImage = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-images.propTypes.currentImage.isRequired" id="apidoc.element.react-images.propTypes.currentImage.isRequired">
+        function <span class="apidocSignatureSpan">react-images.propTypes.currentImage.</span>isRequired
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">isRequired = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.react-images.propTypes.customControls" id="apidoc.module.react-images.propTypes.customControls">module react-images.propTypes.customControls</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.react-images.propTypes.customControls.customControls" id="apidoc.element.react-images.propTypes.customControls.customControls">
+        function <span class="apidocSignatureSpan">react-images.propTypes.</span>customControls
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">customControls = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-images.propTypes.customControls.isRequired" id="apidoc.element.react-images.propTypes.customControls.isRequired">
+        function <span class="apidocSignatureSpan">react-images.propTypes.customControls.</span>isRequired
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">isRequired = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.react-images.propTypes.imageCountSeparator" id="apidoc.module.react-images.propTypes.imageCountSeparator">module react-images.propTypes.imageCountSeparator</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.react-images.propTypes.imageCountSeparator.imageCountSeparator" id="apidoc.element.react-images.propTypes.imageCountSeparator.imageCountSeparator">
+        function <span class="apidocSignatureSpan">react-images.propTypes.</span>imageCountSeparator
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">imageCountSeparator = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-images.propTypes.imageCountSeparator.isRequired" id="apidoc.element.react-images.propTypes.imageCountSeparator.isRequired">
+        function <span class="apidocSignatureSpan">react-images.propTypes.imageCountSeparator.</span>isRequired
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">isRequired = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.react-images.propTypes.images" id="apidoc.module.react-images.propTypes.images">module react-images.propTypes.images</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.react-images.propTypes.images.images" id="apidoc.element.react-images.propTypes.images.images">
+        function <span class="apidocSignatureSpan">react-images.propTypes.</span>images
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">images = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.react-images.propTypes.onClickImage" id="apidoc.module.react-images.propTypes.onClickImage">module react-images.propTypes.onClickImage</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.react-images.propTypes.onClickImage.onClickImage" id="apidoc.element.react-images.propTypes.onClickImage.onClickImage">
+        function <span class="apidocSignatureSpan">react-images.propTypes.</span>onClickImage
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">onClickImage = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-images.propTypes.onClickImage.isRequired" id="apidoc.element.react-images.propTypes.onClickImage.isRequired">
+        function <span class="apidocSignatureSpan">react-images.propTypes.onClickImage.</span>isRequired
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">isRequired = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.react-images.propTypes.onClose" id="apidoc.module.react-images.propTypes.onClose">module react-images.propTypes.onClose</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.react-images.propTypes.onClose.onClose" id="apidoc.element.react-images.propTypes.onClose.onClose">
+        function <span class="apidocSignatureSpan">react-images.propTypes.</span>onClose
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">onClose = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.react-images.propTypes.theme" id="apidoc.module.react-images.propTypes.theme">module react-images.propTypes.theme</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.react-images.propTypes.theme.theme" id="apidoc.element.react-images.propTypes.theme.theme">
+        function <span class="apidocSignatureSpan">react-images.propTypes.</span>theme
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">theme = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-images.propTypes.theme.isRequired" id="apidoc.element.react-images.propTypes.theme.isRequired">
+        function <span class="apidocSignatureSpan">react-images.propTypes.theme.</span>isRequired
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">isRequired = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.react-images.toString" id="apidoc.module.react-images.toString">module react-images.toString</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.react-images.toString.toString" id="apidoc.element.react-images.toString.toString">
+        function <span class="apidocSignatureSpan">react-images.</span>toString
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function toString() { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocFooterDiv">
+    [ this document was created with
+    <a href="https://github.com/kaizhu256/node-utility2" target="_blank">utility2</a>
+    ]
+</div>
+</div>
+</body></html>
