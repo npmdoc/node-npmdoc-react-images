@@ -1,4 +1,7 @@
-# api documentation for  [react-images (v0.5.2)](http://jossmac.github.io/react-images)  [![npm package](https://img.shields.io/npm/v/npmdoc-react-images.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-react-images) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-react-images.svg)](https://travis-ci.org/npmdoc/node-npmdoc-react-images)
+# npmdoc-react-images
+
+#### basic api documentation for  [react-images (v0.5.2)](http://jossmac.github.io/react-images)  [![npm package](https://img.shields.io/npm/v/npmdoc-react-images.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-react-images) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-react-images.svg)](https://travis-ci.org/npmdoc/node-npmdoc-react-images)
+
 #### A simple, responsive lightbox component for displaying an array of images with React.js
 
 [![NPM](https://nodei.co/npm/react-images.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/react-images)
@@ -98,7 +101,8 @@
         "start": "gulp dev",
         "watch": "gulp watch:lib"
     },
-    "version": "0.5.2"
+    "version": "0.5.2",
+    "bin": {}
 }
 ```
 
